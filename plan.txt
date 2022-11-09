@@ -1,0 +1,25 @@
+<Nav>
+Title
+Logo
+< Links > Home, Sign up, < Links>
+</Nav>
+
+/ COMPONENTS - Home, 
+
+<Home>
+<NowShowing/>
+</Home>
+
+
+
+
+
+
+
+
+<Footer>
+<h2>More Info</h2>
+<link> about us, FAQ, Contact Us <Link>
+<h2> Follow Us </h2>
+<links>twitter, instagram, facebook, youtube</links>
+</Footer>
