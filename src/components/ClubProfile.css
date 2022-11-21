@@ -1,0 +1,16 @@
+.form {
+  border: none;
+  border-radius: 25px;
+  height: 360px;
+  width: 360px;
+  background-color: rgb(255, 81, 0);
+}
+
+.dropdown {
+  margin-top: 3.5rem;
+}
+
+.profile_input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
