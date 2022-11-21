@@ -1,5 +1,5 @@
 import "./App.css";
-import { React, useState } from "react";
+import { React, useEffect, useState } from "react";
 
 //components
 import Nav from "./components/Nav";
@@ -14,8 +14,9 @@ function App() {
     phoneNumber: "",
     DOB: "",
   });
+  const { forename } = userForm;
+  const [loggedIn, setLoggedIn] = useState("");
 
-  const { title, forename, surname, email, phoneNumber, DOB } = userForm;
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUserForm({
@@ -28,7 +29,12 @@ function App() {
     e.preventDefault();
     console.log("Form Submitted");
     console.log(userForm);
+    setLoggedIn(forename);
+    console.log(loggedIn, "is logged in");
+    alert(`${loggedIn} is logged in`);
   };
+  useEffect(() => {}, []);
+
   return (
     <div className="App">
       <Nav
@@ -36,6 +42,7 @@ function App() {
         handleChange={handleChange}
         userForm={userForm}
       />
+
       <Footer />
     </div>
   );

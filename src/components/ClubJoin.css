@@ -1,0 +1,21 @@
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  position: relative;
+  justify-content: space-evenly;
+}
+.joinBanner {
+  width: 100%;
+}
+.club_join {
+  background-color: black;
+}
+
+.club_join_title {
+  color: rgb(255, 81, 0);
+}
+
+.buffer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

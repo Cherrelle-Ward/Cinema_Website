@@ -1,0 +1,1 @@
+import "./JoinProfile.css";

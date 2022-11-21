@@ -11,7 +11,7 @@ const Nav = ({ handleChange, handleSubmit, userForm }) => {
       <nav className="navbar">
         <div className="navbar-container">
           <img className="logo" src={logo} alt="logo" />
-          <h1 className="nav-title">CINEMA WEBSITE!</h1>
+          <h1 className="nav-title">Movie Magic</h1>
           <ul className="nav-menu">
             <li className="nav-options">
               <Link className="nav-links" to="/">
